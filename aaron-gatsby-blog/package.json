@@ -1,0 +1,75 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "kingluddite",
+  "scripts": {
+    "build": "gatsby build",
+    "clean-cache": "gatsby clean",
+    "dev": "npm run clean-cache && gatsby develop",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/image-url": "^1.0.1",
+    "dotenv": "^14.2.0",
+    "gatsby": "^4.5.4",
+    "gatsby-plugin-gatsby-cloud": "^4.5.2",
+    "gatsby-plugin-image": "^2.5.2",
+    "gatsby-plugin-manifest": "^4.5.2",
+    "gatsby-plugin-offline": "^5.5.2",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-sharp": "^4.5.2",
+    "gatsby-source-filesystem": "^4.5.2",
+    "gatsby-source-sanity": "^7.3.2",
+    "gatsby-transformer-sharp": "^4.5.0",
+    "i": "^0.3.7",
+    "install": "^0.13.0",
+    "npm": "^8.3.2",
+    "react": "^17.0.1",
+    "react-awesome-reveal": "^3.8.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-livestream": "^1.0.11",
+    "react-markdown": "^8.0.0",
+    "react-syntax-highlighter": "^15.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-sass": "^5.5.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.6.0",
+    "prettier": "^2.5.1",
+    "prettier-eslint-cli": "^4.7.1",
+    "prop-types": "^15.8.1",
+    "sass": "^1.49.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
