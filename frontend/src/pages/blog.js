@@ -65,7 +65,6 @@ export const query = graphql`
           title
           resourceLink
         }
-        body
         _id
         publishedAt(formatString: "MM/DD/YYYY")
         tags {

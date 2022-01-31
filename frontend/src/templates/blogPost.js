@@ -78,7 +78,6 @@ export const pageQuery = graphql`
         resourceLink
       }
       excerpt
-      body
       _rawMainContent
       _rawMyImage
       youTubeVideoId

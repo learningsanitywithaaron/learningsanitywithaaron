@@ -7,6 +7,23 @@ const clientConfig = require('./client-config')
 
 const isProd = process.env.NODE_ENV === 'production'
 
+function checkEnv(envName) {
+  if (
+    typeof process.env[envName] === 'undefined' ||
+    process.env[envName] === ''
+  ) {
+    throw `Missing required environment variables: ${envName}`
+  }
+}
+
+try {
+  checkEnv('NODE_ENV')
+  // checkEnv('EXAMPLE_MISSING_ENV')
+  // checkEnv('EXAMPLE_API_KEY')
+} catch (e) {
+  throw new Error(e)
+}
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
